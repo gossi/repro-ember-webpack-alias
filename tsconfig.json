@@ -6,9 +6,18 @@
     // work with TypeScript.
     "baseUrl": ".",
     "paths": {
-      "ember-webpack-alias/tests/*": ["tests/*"],
-      "ember-webpack-alias/*": ["app/*"],
-      "*": ["types/*"]
+      "ember-webpack-alias/tests/*": [
+        "tests/*"
+      ],
+      "ember-webpack-alias/*": [
+        "app/*"
+      ],
+      "@foo/home": [
+        "app/domain/home"
+      ],
+      "*": [
+        "types/*"
+      ]
     }
   }
 }
